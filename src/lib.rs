@@ -5,7 +5,7 @@ use std::os::raw::c_char;
 //Rust bindings to the C functions
 unsafe extern "C" {
     /**
-    * Function to create client of Elastic Search.
+    * Function
     *
     * @param *const c_char
     * 			*const c_char : a pointer to a const (read-only) C-style string
@@ -26,7 +26,7 @@ unsafe extern "C" {
 }
 
 /**
- * Function to create client of Elastic Search.
+ * Function
  *
  * @param data
  * 			No Parameter
